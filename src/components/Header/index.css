@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.header-container {
+    height: 20vh;
+    margin-top: 75px;
+    width: 100%;
+    position: fixed;
+
+}
+.header-bg-normal {
+    position: relative;
+    width: 100%;
+    position: fixed;
+}
+.header-bg-com {
+    width: 100%;
+    background-color: cyan;
+    height: 20vh;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-bg{
+    background-color: cyan;
+    height: 20vh;
+    width: 103%;
+   
+    transform: rotate(5deg);
+    position: relative;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.header-responsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.header-info{
+    transform: rotate(-5deg);
+    list-style: none;
+    transition: transform .5s;
+}
+
+.header-info:hover{
+    transform: rotate(-5deg);
+    list-style: none;
+    transform: scale(1.1);
+}
+
+
+.header-bg-info{
+    transform: rotate(0deg);
+    list-style: none;
+ 
+    
+}
+
+.header-title {
+    font-family: 'Oswald', sans-serif;color: black;
+
+  
+}
+ @media screen and (max-width: 768px) {
+    .header-title {
+        font-family: "Roboto";
+        color: black;
+        font-size: 16px;
+    }
+    .header-responsive {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+    .header-bg {
+        width: 105%;
+    }
+ }
+.header-title:hover {
+    font-family: "Roboto";
+    color: red;
+    text-shadow: 2px 2px white;
+}
+.list-style {
+    text-decoration: none;
+}

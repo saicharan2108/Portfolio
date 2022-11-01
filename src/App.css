@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  .app-container{
+  display : none;
+  }
+  .mobile-info {
+    display: block;
+  }
+  .txt {
+    font-family: "Roboto";
+    text-align: center;
+    padding-top:14px;
+  }
+  .mobile-info{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:cyan;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-info{
+    display: none;
+  }
+}
+
+.failure-img {
+  height: 300px;
+  width: 400px;
+}
