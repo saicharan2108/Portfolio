@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1168px) {
   .app-container{
   display : none;
   }
@@ -24,7 +24,7 @@
     background-color:cyan;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1168px) {
   .mobile-info{
     display: none;
   }
