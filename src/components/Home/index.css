@@ -18,7 +18,7 @@
     text-align: center;
     padding-top:120px ;
     background-image:linear-gradient(to bottom, #1f183d,#1c3e4f,#1c3e4f,#1f183d);
-    height: 320vh;
+    min-height: 305vh;
 }
 @media screen and (max-width: 768px) { 
    .img {
@@ -79,6 +79,12 @@ color: cyan;
     margin: 0px 4px;
     color: #1c3e4f;
     font-size: 20px;
+}
+.info-more {
+    font-family: "Roboto";
+    color: #fff;
+    text-align: right;
+    padding-right:140px;
 }
 .about-me-section {
     padding-top: 60px;
@@ -210,4 +216,9 @@ color: cyan;
     font-family: "Roboto";
     font-weight: bold;
     color: red;
+}
+.end-info {
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 0px;
 }

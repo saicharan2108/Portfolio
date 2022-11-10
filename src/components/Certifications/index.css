@@ -1,0 +1,62 @@
+.content-certificates{
+        text-align: center;
+        padding-top: 320px;
+        background-image: linear-gradient(to bottom, #1f183d, #1c3e4f, #1c3e4f, #1f183d);
+        min-height: 100vh;
+}
+.cer-card {
+        min-height: 380px;
+        background-color: #fff;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+        margin: 40px;
+        width: 350px;
+        border-radius: 20px;
+        
+}
+
+.cer-img {
+        width: 100%;
+        border: 1px solid black;
+}
+.res-cer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+.skills-cer {
+        text-align: left!important;
+        padding-left: 20px;
+}
+.info-cer {
+        font-family: "Roboto";
+        font-size: 24px;
+        text-decoration: underline;
+}
+.cer-skill {
+        font-family: "Roboto";
+        color: #bfbfbf;
+        padding: 4px 0px;
+        font-size: 14px;
+}
+.mark {
+        margin: 3px 2px 0px 0px;
+}
+.left {
+        text-align: right;
+        padding-right: 40px;
+        position: relative;
+        top: -24px;
+}
+.empty {
+        height: 380px;
+        width:400px;
+        margin: 0px 20px;
+}
+.last-cer-info {
+        font-family: "Roboto", "Helvetica Neue",;
+        font-size: 24px;
+        color: #fff;
+        padding-bottom: 20px;
+}

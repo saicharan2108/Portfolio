@@ -143,7 +143,7 @@ class Home extends Component {
                              
                                 <AnimationOnScroll animateIn="animate__flipInY">
                                 <div className="skill-card">
-                                <img src="https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png" alt="skill-img" className="skill-img sm" />
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="skill-img" className="skill-img sm" />
                                 <p className="skill-info-card"> React JS </p>
                                 </div>
                                 </AnimationOnScroll>
@@ -206,16 +206,16 @@ class Home extends Component {
                                 <p className="skill-info-card">  Figma </p>
                                 </div>
                                 </AnimationOnScroll>
-
+  
                             </div>
 
-                           
+                           <p className="info-more"> many more...</p>
                         </div>
                         <div className="contact-form">
                         <AnimationOnScroll animateIn="animate__bounceInRight" animateOnce={true}>              
                         
                         <hr className="left-hr" />
-                </AnimationOnScroll>        
+    </AnimationOnScroll>        
                             <span className="about-me-info"> Ping Me </span>
                             <AnimationOnScroll animateIn="animate__flipInX" >
                             <form className="form-container" onSubmit={this.formSubmitted}>
@@ -234,6 +234,7 @@ class Home extends Component {
                                 </AnimationOnScroll>
 
                         </div>
+                        <h3 className="end-info"> Thanks for visiting our website & Make sure to travel around all sections. </h3>
                     </div>
                 </div>
                 
