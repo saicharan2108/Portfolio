@@ -22,7 +22,7 @@ function App() {
     </div>
       <div className="mobile-info">
         <img src="https://assets.ccbp.in/frontend/react-js/failure-img.png" alt="img" className="failure-img" />
-        <h1 className="txt"> Unavailable for<b><i> <span style={{color:"red"}}>Mobile Devices</span></i></b>, Make sure to explore on <u>Laptop or Tablet</u>.</h1>
+        <h1 className="txt"> Unavailable for<b><i> <span style={{ color: "red" }}>Mobile Devices</span></i></b>, Make sure to explore on <u><span style={{color:"green"}}>Laptop or Tablet</span></u>.</h1>
       </div>
       </>
   );
