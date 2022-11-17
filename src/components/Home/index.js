@@ -79,7 +79,7 @@ class Home extends Component {
                 <div className="content">
                     <div className="home-responsive">
                         <motion.div className="naming-container" initial={{ y: "50%", opacity: 0, scale: 0.5 }} animate={{y: 0, opacity: 1, scale: 1 }} transition={{ delay: 0.7}}>
-                            <h1 className="heading"> Sai vara Prasad Degala </h1><span className="symbol"> < ImQuotesRight /> </span>
+                            <h1 className="heading"> Sai Vara Prasad Degala </h1><span className="symbol"> < ImQuotesRight /> </span>
                       <div className="type">
                      <Typewriter options={{strings: ['Web Developer', 'Programmer','Designer'],autoStart: true,loop: true, cursorClassName:'add' }}/>
                        </div>
