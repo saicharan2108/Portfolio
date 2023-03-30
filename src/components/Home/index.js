@@ -220,9 +220,9 @@ class Home extends Component {
                             <AnimationOnScroll animateIn="animate__flipInX" >
                             <form className="form-container" onSubmit={this.formSubmitted}>
                                 <label htmlFor="name" className="label"> Name </label>
-                                <input type="text" id="name" className="input" onChange={this.name} value={name} placeholder="Enter Name"/>
+                                <input type="text" id="name" className="input" onChange={this.name} value={name} placeholder="Enter Name" required/>
                                <label htmlFor="email" className="label"> Email </label> 
-                                <input type="email" className="input" onChange={this.email} value={ email} placeholder="Enter Email" id="email"/>
+                                <input type="email" className="input" onChange={this.email} value={ email} placeholder="Enter Email" id="email" required/>
                                 <label htmlFor="msg" className="label"> Message </label>
                                 <textarea cols={25} id="msg" type="text" className="input" value={ message} onChange={this.message} placeholder="Enter Message here..." rows={10}>
 
