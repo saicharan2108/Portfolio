@@ -224,7 +224,7 @@ class Home extends Component {
                                <label htmlFor="email" className="label"> Email </label> 
                                 <input type="email" className="input" onChange={this.email} value={ email} placeholder="Enter Email" id="email" required/>
                                 <label htmlFor="msg" className="label"> Message </label>
-                                <textarea cols={25} id="msg" type="text" className="input" value={ message} onChange={this.message} placeholder="Enter Message here..." rows={10}>
+                                <textarea cols={25} id="msg" type="text" className="input" required value={ message} onChange={this.message} placeholder="Enter Message here..." rows={10}>
 
                                     </textarea>
                                     {success && <p className="success"> Message Sent ✅, Thank for your valuable Feedback  </p>}
