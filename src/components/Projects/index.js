@@ -24,18 +24,6 @@ const Projects = () => (
                             </div>
                     </div>       
                     </div>
-                    <div className="card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668067473/portfolio2_v3kerh.png" alt="img" className="image" />
-                    <div className="content-card">
-                           <h1 className="card-heading"> Portfolio </h1>
-                            <p className="description"> <span className="arrow"> <BsArrowBarRight/></span>This is my another portfolio, based on HTML and CSS and Bootstrap and many more...</p>
-                             <div className="res">
-                                <h3 className="tools"> Tools: <span> HTML, CSS, Bootstrap </span></h3>  
-                                <a href="https://dspsite.ccbp.tech" rel="noreferrer" target="_blank">
-                                    <button className="btn">View Site<span className="eye"> <AiFillEye /> </span> </button></a> 
-                            </div>
-                    </div>       
-                    </div>
                    <div className="card">
                     <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668067471/Password-manager_gwb3nq.png" alt="img" className="image" />
                     <div className="content-card">

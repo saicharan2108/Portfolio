@@ -10,21 +10,20 @@ const Certifications = () => (
  <h1 className="heading"><span> <BsArrowDownCircle size={20}  /></span> Checkout <span className="span"> Main Cerificates </span>Below <span> <BsArrowDownCircle size={20} /></span> </h1>
         <div className="res-cer">
             <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084552/Udemy_ewjcmh.jpg" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710661639/React_Certificate_zem1ie.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
-                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
-                        /> HTML </p>
-                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> CSS </p>
-                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Bootstrap </p>
-                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> MERN </p>
-                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> GIT and GITHUB</p>
-                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Web3 </p>
+                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Handling Events </p>
+                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Authentication & Authorization </p>
+                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Components and Props </p>
+                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Conditional Rendering </p>
+                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Lists and Keys</p>
+                        <p className="cer-skill"> <FiCheckCircle className="mark" color="green"/> Routing using React Router </p>
                         <p className="cer-skill left"> many more... </p>
-                    </div>
-                </div>
+            </div>
+        </div>
                   <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084550/NodeJS_ahs6kx.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710660442/Node_Certificate_tvpcxo.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -38,7 +37,7 @@ const Certifications = () => (
                     </div>
                 </div>
                        <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084551/python_tqj7hf.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710660628/Python_Certificate_xsajge.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -53,7 +52,7 @@ const Certifications = () => (
                     </div>
                 </div>
                 <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084550/JS_pjsblz.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710660747/JS_Essentials_Certificate_xuhkvj.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -66,7 +65,7 @@ const Certifications = () => (
                     </div>
                 </div>
            <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084548/Databases_pq2flb.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710660854/Databases_certificate_d60g8x.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -79,7 +78,7 @@ const Certifications = () => (
                     </div>
                 </div>
                   <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084547/GIT_AND_GITHUB_apcw5i.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710661011/Dev_Fou_Certificate_cyie33.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -92,7 +91,7 @@ const Certifications = () => (
                     </div>
                 </div>
                      <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084553/Static_ifcugy.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710661141/Static_certificate_jv1wsd.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -105,7 +104,7 @@ const Certifications = () => (
                     </div>
                 </div>
                      <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084552/responsive_ahglr2.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710661292/Responsive_certificate_jkdjqm.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -117,7 +116,7 @@ const Certifications = () => (
                     </div>
                 </div>
                      <div className="cer-card">
-                    <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084548/dynamic_p6nd2h.png" className="cer-img" alt="cer-img" />
+                    <img src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710661451/Dynamic_Certificate_ghpabq.png" className="cer-img" alt="cer-img" />
                     <div className="skills-cer">
                         <h1 className="info-cer"> Covered </h1>
                         <p className="cer-skill"> <FiCheckCircle className="mark" color="green" 
@@ -129,18 +128,9 @@ const Certifications = () => (
                         <p className="cer-skill left"> many more... </p>
                     </div>
                 </div>
-                <div className="empty">
-<img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084552/responsive_ahglr2.png" className="cer-img" alt="cer-img" />                   
-                </div>
-                <div className="empty">
-<img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084560/bootcamp_h1qdv6.png" className="cer-img" alt="cer-img" />                   
-                </div>
-                <div className="empty">
-<img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1668084567/career_development_qjxldm.png" className="cer-img" alt="cer-img" />                   
-                </div>
                 
-            </div>
-            <h2 className="last-cer-info"> Loading more in future.... </h2>
+        </div>
+        <h2 className="last-cer-info"> Loading more in future.... </h2>
         </div>
     </div>
 )

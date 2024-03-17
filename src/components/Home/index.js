@@ -53,8 +53,8 @@ class Home extends Component {
     console.log(newMessage);
     emailjs
       .send(
-        "service_0eqdjai",
-        "template_u012juy",
+        "service_s8d9wth",
+        "template_0v62joh",
         newMessage,
         "Ax659_AY0KotGnhDu"
       )
@@ -106,7 +106,7 @@ class Home extends Component {
               animate={{ y: 0, opacity: 1, scale: 1 }}
               transition={{ delay: 0.7 }}
             >
-              <h1 className="heading"> Sai Vara Prasad Degala </h1>
+              <h1 className="heading"> Sai Charan Muvva </h1>
               <span className="symbol">
                 {" "}
                 <ImQuotesRight />{" "}
@@ -114,7 +114,7 @@ class Home extends Component {
               <div className="type">
                 <Typewriter
                   options={{
-                    strings: ["Software Developer", "Speaker", "Teacher"],
+                    strings: ["Software Developer", "Automation Tester"],
                     autoStart: true,
                     loop: true,
                     cursorClassName: "add",
@@ -135,7 +135,7 @@ class Home extends Component {
               transition={{ delay: 0.4, type: "spring", stiffness: 30 }}
             >
               <img
-                src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1693374351/Profile_zeyjiw.jpg"
+                src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710658744/finalprofile_awzkad.jpg"
                 alt="pro-img"
                 className="pro-img"
               />
@@ -157,7 +157,7 @@ class Home extends Component {
               >
                 <div className="img-container">
                   <img
-                    src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1693374512/83456205_660390388115720_4383830246663651328_o_rbkkp3.jpg"
+                    src="https://res.cloudinary.com/djdnnecc6/image/upload/v1710658939/finalprofile2_amgipv.png"
                     alt="pro-img"
                     className="pro-img"
                   />
@@ -174,10 +174,10 @@ class Home extends Component {
                       <u>Hello There !</u>
                       <br />{" "}
                     </b>
-                    I am a Tech 4.0 enthusiast with 3 years of Hands-on and 1
-                    year of industry experience in Web Development, I'm
-                    discovering the connections among Software Engineering, AI,
-                    and IoT.
+                    I am a Tech 4.0 enthusiast with 3 years of Hands-on and 7
+                    months of industry experience in Web Development & Automation Testing, I'm
+                    discovering the connections among Software Engineering, Automation Testing, AI,
+                    and Cybersecurity.
                   </h1>
                 </div>
               </AnimationOnScroll>
@@ -314,11 +314,11 @@ class Home extends Component {
                 <AnimationOnScroll animateIn="animate__flipInY">
                   <div className="skill-card">
                     <img
-                      src="https://brandlogos.net/wp-content/uploads/2022/05/figma-logo_brandlogos.net_6n1pb.png"
+                      src="https://seeklogo.com/images/P/playwright-logo-22FA8B9E63-seeklogo.com.png"
                       alt="skill-img"
                       className="skill-img sm"
                     />
-                    <p className="skill-info-card"> Figma </p>
+                    <p className="skill-info-card"> Playwright </p>
                   </div>
                 </AnimationOnScroll>
               </div>
