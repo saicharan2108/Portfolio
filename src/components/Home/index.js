@@ -174,8 +174,8 @@ class Home extends Component {
                       <u>Hello There !</u>
                       <br />{" "}
                     </b>
-                    I am a Tech 4.0 enthusiast with 3 years of Hands-on and 7
-                    months of industry experience in Web Development & Automation Testing, I'm
+                    I am a Tech 4.0 enthusiast with 3 years of Hands-on and 1 year
+                    of industry experience in Web Development & Automation Testing, I'm
                     discovering the connections among Software Engineering, Automation Testing, AI,
                     and Cybersecurity.
                   </h1>
